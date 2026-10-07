@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import "./App.css";
 
-const OVERPASS_URL = "https://overpass-api.de/api/interpreter";
+const OVERPASS_URL = "/api/overpass";
 
 const OLA_AUTOCOMPLETE_URL =
   "https://api.olamaps.io/places/v1/autocomplete";
