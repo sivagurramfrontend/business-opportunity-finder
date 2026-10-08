@@ -828,12 +828,9 @@ function cleanWebsite(url) {
 
 
 
-  if (!/^https?:**\\/\\/**/i.test(url)) {
-
-    return `https://${url}`;
-
-  }
-
+if (!/^https?:\/\//i.test(url)) {
+  return `https://${url}`;
+}
 
 
   return url;
